@@ -1,0 +1,33 @@
+nav{
+    background-color: blueviolet;
+    margin-top: 30px;
+   
+}
+ul{
+    list-style-type: none;
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+li:hover:not(.active){
+    background-color: black;
+    color: rgb(91, 49, 5);
+}
+.active{
+    background-color: black;
+}
+input{
+    margin-right: 5px;
+}
+
+.link{
+    margin-right: 100 px;
+    padding: 10px;
+    text-decoration: none;
+}
+body{
+    background-image: url('../assets/image/a.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
